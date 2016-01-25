@@ -14,7 +14,7 @@ npm install
 
 2. Connect the CLI
 --
-- Plug the gateway device into your USB port, unplugging any other nRF51 devices
+- Plug the nRF51 device into your USB port, unplugging any other nRF51 devices
 - In the console, run `node cli`
 
 This command will attempt to open a serial connection to the device via the USB port. The device should be discovered automatically, since you only have one plugged in. If it isn't, you will be prompted to run `node list` to find your USB port name.
