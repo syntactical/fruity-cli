@@ -1,6 +1,6 @@
 fruity-cli
 ==
-A simple Command Line Interface (CLI) for talking to [https://github.com/mwaylabs/fruitymesh](fruitymesh) devices.
+A simple Command Line Interface (CLI) for talking to [fruitymesh](https://github.com/mwaylabs/fruitymesh) devices.
 
 1. Node it up
 --
