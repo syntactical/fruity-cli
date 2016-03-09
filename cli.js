@@ -7,7 +7,7 @@ processArgs();
 
 function openSerialPort(portName){
   var serialPort = new SerialPort(portName, {
-    baudrate: 38400,
+    baudrate: 9600,
     parser: serialport.parsers.readline('\n')
   }, false);
 
@@ -53,7 +53,7 @@ function processWithoutArgs() {
   serialport.list(function (err, ports) {
     for(var i = 0; i < ports.length; i++) {
       port = ports[i];
-      if(port.manufacturer == 'SEGGER') {
+      if(port.manufacturer == 'Arduino (www.arduino.cc)') {
         found++;
         name = port.comName;
       }      
